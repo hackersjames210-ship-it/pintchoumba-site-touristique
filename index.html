@@ -1,13 +1,348 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ma page web</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pintchoumba — Village du Faro, Région du Nord (Cameroun) | Site de découverte</title>
+  <meta name="description" content="Découvrez Pintchoumba, village de savane de l'arrondissement de Poli (département du Faro, Région du Nord, Cameroun) : pitons granitiques, culture dowayo, rivière Faro, marché hebdomadaire, fêtes traditionnelles et informations pratiques.">
+  <meta name="theme-color" content="#3f4a2c">
+  <meta property="og:title" content="Pintchoumba — Village du Faro, Région du Nord (Cameroun)">
+  <meta property="og:description" content="Pitons granitiques, culture dowayo, rivière Faro et savane : préparez votre visite à Pintchoumba, arrondissement de Poli.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/panorama.svg">
+  <meta property="og:locale" content="fr_CM">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <h1>histoire</h1>
-    <p>bonjour je suis mr hackers je suis vous presentez votre en histoire</p>
-    
+  <a class="skip-link" href="#contenu">Aller au contenu principal</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand__mark" aria-hidden="true">P</span>
+        <span class="brand__name">
+          Pintchoumba
+          <span class="brand__sub">Faro · Région du Nord</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle__bars" aria-hidden="true"></span>
+        <span class="visually-hidden">Ouvrir le menu</span>
+      </button>
+      <nav class="nav" id="primary-nav" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="decouvrir.html">Découvrir</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="infos.html">Infos pratiques</a></li>
+          <li><a class="btn btn--moss" href="infos.html#contact">Préparer ma visite</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+
+    <!-- Héros --------------------------------------------------------------- -->
+    <section class="hero">
+      <div class="hero__media" aria-hidden="true">
+        <img src="assets/img/panorama.svg" alt="">
+      </div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="wrap hero__content">
+        <p class="eyebrow eyebrow--light">Région du Nord · Département du Faro · Arrondissement de Poli</p>
+        <h1>Pintchoumba</h1>
+        <p class="hero__tagline">
+          Un village de savane au pied des pitons granitiques du pays dowayo, entre
+          les berges du Faro et les pistes qui descendent vers la Bénoué. On y arrive
+          depuis Garoua, chef-lieu de la région du Nord.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="decouvrir.html">Découvrir le village</a>
+          <a class="btn btn--ghost" href="infos.html">Préparer ma visite</a>
+        </div>
+        <ul class="hero__facts">
+          <li><strong>Faro</strong> département</li>
+          <li><strong>Poli</strong> arrondissement</li>
+          <li><strong>Garoua</strong> chef-lieu régional</li>
+          <li><strong>2 saisons</strong> sèche et pluvieuse</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Bienvenue ------------------------------------------------------------ -->
+    <section class="section">
+      <div class="wrap layout-split">
+        <div data-reveal>
+          <p class="eyebrow">Bienvenue</p>
+          <h2>Un village de savane, entre pitons et champs de mil</h2>
+          <p class="lead">
+            Pintchoumba se trouve dans l'arrondissement de Poli, département du Faro,
+            au cœur de la Région du Nord du Cameroun, à quelques heures de route de
+            Garoua.
+          </p>
+          <p>
+            Ici, les cases rondes aux toits de chaume s'abritent au pied de pitons
+            granitiques, les greniers se remplissent de mil et de sorgho après la
+            moisson, et les troupeaux traversent la plaine à la recherche des
+            pâturages. Les femmes façonnent canaris et paniers, les hommes forgent et
+            cultivent, et le village vit au rythme de la saison sèche et de la saison
+            des pluies.
+          </p>
+          <p>
+            Le voyageur qui s'y arrête y trouve une savane généreuse, des panoramas
+            à perte de vue depuis les pitons, la fraîcheur des berges du Faro et
+            l'accueil du pays dowayo.
+          </p>
+          <a class="btn btn--outline" href="decouvrir.html">Explorer le village</a>
+        </div>
+        <ul class="stats" data-reveal>
+          <li>
+            <span class="stats__value">Faro</span>
+            <span class="stats__label">département, chef-lieu Poli</span>
+          </li>
+          <li>
+            <span class="stats__value">Nord</span>
+            <span class="stats__label">région, chef-lieu Garoua</span>
+          </li>
+          <li>
+            <span class="stats__value">Dowayo</span>
+            <span class="stats__label">pays, langue et traditions</span>
+          </li>
+          <li>
+            <span class="stats__value">2 saisons</span>
+            <span class="stats__label">sèche (nov.–mars) · pluies (juin–oct.)</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- À ne pas manquer ----------------------------------------------------- -->
+    <section class="section section--tint">
+      <div class="wrap">
+        <div class="section-head section-head--center" data-reveal>
+          <p class="eyebrow">À ne pas manquer</p>
+          <h2>Trois raisons de faire le détour</h2>
+          <p class="lead">
+            La culture dowayo, les pitons du massif et la rivière Faro : trois visages
+            de Pintchoumba.
+          </p>
+        </div>
+
+        <div class="cards">
+          <article class="card" data-reveal>
+            <img class="card__media" src="assets/img/chefferie.svg" alt="Cases rondes, grenier sur pilotis et mortier dans une concession traditionnelle">
+            <div class="card__body">
+              <p class="card__kicker">Culture · pays dowayo</p>
+              <h3>Cases, chefferie et artisanat</h3>
+              <p>
+                Concessions de terre crue, toits de chaume coniques, greniers sur
+                pilotis, canaris et paniers tressés : le savoir-faire du village se
+                découvre à pied.
+              </p>
+              <a class="card__link" href="decouvrir.html#culture">En savoir plus <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="card" data-reveal>
+            <img class="card__media" src="assets/img/pitons.svg" alt="Dômes granitiques du massif, sentier de randonnée et savane sèche">
+            <div class="card__body">
+              <p class="card__kicker">Nature · randonnée</p>
+              <h3>Les pitons du massif de Poli</h3>
+              <p>
+                Des dômes de granit à perte de vue, des éboulis, des baobabs et des
+                panoramas à 360° sur la savane. Les sentiers se parcourent avec un
+                guide du village.
+              </p>
+              <a class="card__link" href="decouvrir.html#nature">En savoir plus <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+
+          <article class="card" data-reveal>
+            <img class="card__media" src="assets/img/fleuve.svg" alt="Bancs de sable, pirogue et hippopotames sur la rivière Faro">
+            <div class="card__body">
+              <p class="card__kicker">Nature · le Faro</p>
+              <h3>La rivière, la savane et la Bénoué</h3>
+              <p>
+                Bancs de sable, pirogues et oiseaux d'eau sur le Faro ; plus loin,
+                la savane arborée et la faune du parc national de la Bénoué, sur
+                l'axe Garoua–Poli.
+              </p>
+              <a class="card__link" href="decouvrir.html#nature">En savoir plus <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section><!-- Temps forts --------------------------------------------------------- -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Temps forts</p>
+          <h2>Un village au rythme des saisons et des fêtes</h2>
+          <p class="lead">
+            De la fin du ramadan aux fêtes de la moisson, en passant par le jour de
+            marché : quatre rendez-vous pour croiser la vie de Pintchoumba.
+          </p>
+        </div>
+
+        <div class="agenda">
+          <article class="event" data-reveal>
+            <p class="event__date">Mars<span>2026</span></p>
+            <div>
+              <h3 class="event__title">Aïd el-Fitr (fin du ramadan)</h3>
+              <p class="event__meta">Grandes prières, repas partagés et visites de famille dans tout l'arrondissement. Date selon le calendrier lunaire.</p>
+            </div>
+            <span class="event__tag">Fête musulmane</span>
+          </article>
+
+          <article class="event" data-reveal>
+            <p class="event__date">Oct.<span>Nov.</span></p>
+            <div>
+              <h3 class="event__title">Fêtes de la moisson</h3>
+              <p class="event__meta">Après les récoltes de mil et de sorgho : danses, tambours et chants dans les quartiers. Dates annoncées par la chefferie.</p>
+            </div>
+            <span class="event__tag">Tradition</span>
+          </article>
+
+          <article class="event" data-reveal>
+            <p class="event__date">Chaque<span>semaine</span></p>
+            <div>
+              <h3 class="event__title">Jour de marché</h3>
+              <p class="event__meta">Céréales, arachide, sésame, piments, tissus, calebasses et bétail. Le jour exact est annoncé à la chefferie.</p>
+            </div>
+            <span class="event__tag">Marché</span>
+          </article>
+
+          <article class="event" data-reveal>
+            <p class="event__date">Déc.<span>2026</span></p>
+            <div>
+              <h3 class="event__title">Noël et fin d'année</h3>
+              <p class="event__meta">Veillée, repas partagés et retour des enfants du village ; les habitants rentrent de Garoua, Poli et plus loin encore.</p>
+            </div>
+            <span class="event__tag">Fête</span>
+          </article>
+        </div>
+
+        <p class="note">
+          <strong>Dates indicatives :</strong> elles doivent être confirmées chaque année
+          auprès de la <strong>mairie de Poli</strong> et de la
+          <strong>chefferie de Pintchoumba</strong> — les fêtes de la moisson et les
+          cérémonies se déroulent selon les récoltes et le calendrier lunaire.
+        </p>
+      </div>
+    </section>
+
+    <!-- Galerie (aperçu) ---------------------------------------------------- -->
+    <section class="section section--sky">
+      <div class="wrap">
+        <div class="section-head section-head--center" data-reveal>
+          <p class="eyebrow">En images</p>
+          <h2>Pintchoumba, saison après saison</h2>
+          <p class="lead">
+            Neuf illustrations du village, des pitons, du Faro et des champs.
+          </p>
+        </div>
+
+        <div class="preview-grid" data-reveal>
+          <a href="galerie.html" aria-label="Voir la galerie">
+            <img src="assets/img/panorama.svg" alt="Panorama du village au crépuscule">
+          </a>
+          <a href="galerie.html" aria-label="Voir la galerie">
+            <img src="assets/img/chefferie.svg" alt="Cases rondes et grenier du village">
+          </a>
+          <a href="galerie.html" aria-label="Voir la galerie">
+            <img src="assets/img/pitons.svg" alt="Pitons granitiques du massif">
+          </a>
+          <a href="galerie.html" aria-label="Voir la galerie">
+            <img src="assets/img/marche.svg" alt="Jour de marché au village">
+          </a>
+          <a href="galerie.html" aria-label="Voir la galerie">
+            <img src="assets/img/mil.svg" alt="Champs de mil avant la moisson">
+          </a>
+        </div>
+
+        <p style="text-align:center; margin-top:1.8rem;">
+          <a class="btn btn--outline" href="galerie.html">Voir toute la galerie</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Lettre d'information ------------------------------------------------- -->
+    <section class="section" id="newsletter">
+      <div class="wrap">
+        <div class="band" data-reveal>
+          <div>
+            <h2>Recevez les nouvelles de Pintchoumba</h2>
+            <p>Un message par trimestre : dates des fêtes, jours de marché, état des pistes et projets des associations du village.</p>
+          </div>
+          <form class="form form--inline" data-demo data-success="Merci ! Vous recevrez les nouvelles de Pintchoumba." action="#" method="post" novalidate>
+            <div class="field">
+              <label class="visually-hidden" for="nl-email">Votre adresse e-mail</label>
+              <input type="email" id="nl-email" name="email" placeholder="vous@exemple.cm" required>
+            </div>
+            <button class="btn btn--primary" type="submit">S'inscrire</button>
+            <p class="form__status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="footer__brand">Pintchoumba</p>
+        <p class="footer__text">
+          Site de découverte du village<br>
+          Chefferie de Pintchoumba, arrondissement de Poli<br>
+          Département du Faro, Région du Nord, Cameroun<br>
+          <a href="tel:+237687696888">+237 6 87696888</a><br>
+          <a href="mailto:contacthackersjames210@gmail.com.example">contacthackersjames210@gmail.com.example</a>
+        </p>
+      </div>
+      <nav aria-label="Plan du site">
+        <h3 class="footer__title">Plan du site</h3>
+        <ul class="footer__list">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="decouvrir.html">Découvrir</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="infos.html">Infos pratiques</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h3 class="footer__title">Quand venir</h3>
+        <p class="footer__text">
+          Saison sèche : novembre à mars, pistes praticables et randonnées.<br>
+          Harmattan : nuits fraîches, brume de poussière.<br>
+          Saison des pluies : juin à octobre, savane verte, pistes difficiles.
+        </p>
+      </div>
+      <div>
+        <h3 class="footer__title">Venir au village</h3>
+        <p class="footer__text">
+          Aéroport international de Garoua, puis route de Poli (environ 150 km).<br>
+          De Poli à Pintchoumba : piste, renseignements sur place.<br>
+          Véhicule 4x4 conseillé en saison des pluies.
+        </p>
+      </div>
+    </div>
+
+    <div class="wrap footer-bottom">
+      <p>© <span data-year>2026</span> Pintchoumba — Site de démonstration. Illustrations vectorielles originales ; dates, contacts et tarifs à confirmer auprès de la mairie de Poli et de la chefferie.</p>
+      <ul class="footer__legal">
+        <li><a href="infos.html#faq">Questions fréquentes</a></li>
+        <li><a href="infos.html#contact">Nous écrire</a></li>
+        <li><a href="#contenu">Haut de page</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <button class="to-top" type="button" aria-label="Revenir en haut de la page">↑</button>
+  <script src="assets/js/main.js" defer></script>
 </body>
 </html>
